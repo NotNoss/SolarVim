@@ -4,6 +4,8 @@ SolarVim (svim) is a neovim layer that replaces the default nvim config. This ad
 
 PLEASE NOTE: This program replaces the neovim config so by typing nvim, it opens SolarVim. We have plans to change this in the future and use svim instead but for now that is how it runs. If you decide you no longer want SolarVim, please see the uninstall steps below to go back to your normal neovim configuration.
 
+![SolarVim Dashboard](https://github.com/NotNoss/SolarVim/blob/main/Images/SolarVim%20Dashboard.PNG)
+
 ## Install Instructions
 Install the prerequisites below before proceeding
 
