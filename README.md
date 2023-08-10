@@ -1,8 +1,4 @@
-#  ____        _          __     ___
-# / ___|  ___ | | __ _ _ _\ \   / (_)_ __ ___
-# \___ \ / _ \| |/ _` | '__\ \ / /| | '_ ` _ \
-#  ___) | (_) | | (_| | |   \ V / | | | | | | |
-# |____/ \___/|_|\__,_|_|    \_/  |_|_| |_| |_| 
+# SOLARVIM 
 
 ## Install Instructions
 Install the prerequisites below before proceeding
