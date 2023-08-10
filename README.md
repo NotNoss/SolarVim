@@ -7,18 +7,18 @@ PLEASE NOTE: This program replaces the neovim config so by typing nvim, it opens
 ## Install Instructions
 Install the prerequisites below before proceeding
 
-Remove or rename ~/.local/share/nvim/
+### Remove or rename ~/.local/share/nvim/
 - sudo rm -r ~/.local/share/nvim/
 - mv ~/.local/share/nvim/ ~/.local/share/nvim.bak
 
-Remove or rename ~/.local/share/nvim/
+### Remove or rename ~/.local/share/nvim/
 - sudo rm -r ~/.config/nvim/
 - vm ~/.config/nvim/ ~/.config/nvim.bak
 
-Clone Repository
+### Clone Repository
 - git clone git@github.com:NotNoss/SolarVim.git ~/.config/nvim/
 
-Run nvim
+### Run nvim
 - nvim
 
 ## Prerequisites
@@ -30,7 +30,7 @@ Follow all steps below to get the rerequisites and nvim. Not all distros have be
 ### CentOS/RHEL/Fedora
 - sudo dnf -y install ninja-build cmake gcc make unzip gettext curl gcc-c++
 
-Install nvim >= 0.9
+### Install nvim >= 0.9
 - git clone https://github.com/neovim/neovim.git
 - cd neovim
 - git checkout release-0.9
@@ -40,6 +40,11 @@ Install nvim >= 0.9
 ## Uninstall SolarVim
 Uninstalling SolarVim will return you to the default neovim configuration.
 
+### Remove SolarVim Configuration
 - sudo rm -r ~/.config/nvim/
+
+### Remove SolarVim Plugins
 - sudo rm -r ~/.local/share/nvim/
+
+### Run NeoVim
 - nvim
