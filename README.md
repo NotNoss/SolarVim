@@ -23,8 +23,8 @@ In this example, we will use Ubuntu. I will show more Distros later down the lin
 - sudo apt-get install ninja-build gettext cmake unzip curl
 
 Install nvim >= 0.9
-git clone https://github.com/neovim/neovim.git
-cd neovim
-git checkout release-0.9
-make CMAKE_BUILD_TYPE=Release
-sudo make install
+- git clone https://github.com/neovim/neovim.git
+- cd neovim
+- git checkout release-0.9
+- make CMAKE_BUILD_TYPE=Release
+- sudo make install
