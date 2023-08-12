@@ -33,6 +33,9 @@ Follow all steps below to get the rerequisites and nvim. Not all distros have be
 ### CentOS/RHEL/Fedora
 - sudo dnf -y install ninja-build cmake gcc make unzip gettext curl gcc-c++
 
+### Arch Linux
+- sudo pacman -S base-devel cmake unzip ninja curl
+
 ### Install nvim >= 0.9
 - git clone https://github.com/neovim/neovim.git
 - cd neovim
