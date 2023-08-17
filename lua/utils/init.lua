@@ -9,11 +9,11 @@ M.servers = {
   "bashls",
   "jsonls",
   "yamlls",
-  "clangd",
-  "rust_analyzer",
-  "csharp_ls",
-  "gdscript",
-  "pearlls",
+  --"clangd",
+  --"rust_analyzer",
+  --"csharp_ls",
+  --"gdscript",
+  --"pearlls",
 }
 
 return M
