@@ -27,6 +27,8 @@ Install the prerequisites below before proceeding
 ## Prerequisites
 Follow all steps below to get the rerequisites and nvim. Not all distros have been tested so please open an issue if there is an issue with your distro and I will test it. If you have already tested your distro, please feel free to submit a pull request to add your Distro to the list with the proper steps to get it running.
 
+NOTE: SolarVim requires NPM or you will receive errors from Mason.
+
 ### Ubuntu
 - sudo apt-get install ninja-build gettext cmake unzip curl
 
