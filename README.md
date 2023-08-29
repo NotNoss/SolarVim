@@ -9,11 +9,11 @@ PLEASE NOTE: This program replaces the neovim config so by typing nvim, it opens
 ## Install Instructions
 
 ### Remove or rename ~/.local/share/nvim/
-- sudo rm -r ~/.local/share/nvim/
+- rm -rf ~/.local/share/nvim/
 - mv ~/.local/share/nvim/ ~/.local/share/nvim.bak
 
 ### Remove or rename ~/.config/nvim/
-- sudo rm -r ~/.config/nvim/
+- rm -rf ~/.config/nvim/
 - vm ~/.config/nvim/ ~/.config/nvim.bak
 
 ### Clone Repository
@@ -26,10 +26,10 @@ PLEASE NOTE: This program replaces the neovim config so by typing nvim, it opens
 Uninstalling SolarVim will return you to the default neovim configuration.
 
 ### Remove SolarVim Configuration
-- sudo rm -r ~/.config/nvim/
+- rm -rf ~/.config/nvim/
 
 ### Remove SolarVim Plugins
-- sudo rm -r ~/.local/share/nvim/
+- rm -rf ~/.local/share/nvim/
 
 ### Run NeoVim
 - nvim
