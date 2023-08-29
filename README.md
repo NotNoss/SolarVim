@@ -44,4 +44,3 @@ Uninstalling SolarVim will return you to the default neovim configuration.
 - TreeSJ
 - Add a Winbar
 - Clean plugin init
-- Fix banner in alpha
