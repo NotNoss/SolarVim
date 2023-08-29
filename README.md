@@ -1,20 +1,18 @@
 # SOLARVIM 
 
-SolarVim (svim) is a neovim layer that replaces the default nvim config. This adds more features then what neovim has out of the box.
+SolarVim (svim) is a neovim layer that replaces the default nvim config. This adds more features then what neovim has out of the box. This is just my config and not meant to be a distrobution. There might be plugins that do not work. If you have any issues, you can submit an issue and if I have time, I can look into it.
+
+Solarvim was originally made using the "nvim-basic-ide" by LunarVim but the colorscheme was changed and a couple plugins added (That's where the name SolarVim came from, because I'm unoriginal). I wanted to change from null-ls after the repo was archived but realized I didn't understand how anything worked enough to do it so I rebuilt SolarVim with kickstart. Since then, in a matter of a couple days I have transformed it into what it is now.
 
 PLEASE NOTE: This program replaces the neovim config so by typing nvim, it opens SolarVim. We have plans to change this in the future and use svim instead but for now that is how it runs. If you decide you no longer want SolarVim, please see the uninstall steps below to go back to your normal neovim configuration.
 
-![SolarVim Dashboard](https://github.com/NotNoss/SolarVim/blob/main/Images/SolarVim%20Dashboard.PNG)
-![SolarVim In Use](https://github.com/NotNoss/SolarVim/blob/main/Images/SolarVim%20In%20Use.PNG)
-
 ## Install Instructions
-Install the prerequisites below before proceeding
 
 ### Remove or rename ~/.local/share/nvim/
 - sudo rm -r ~/.local/share/nvim/
 - mv ~/.local/share/nvim/ ~/.local/share/nvim.bak
 
-### Remove or rename ~/.local/share/nvim/
+### Remove or rename ~/.config/nvim/
 - sudo rm -r ~/.config/nvim/
 - vm ~/.config/nvim/ ~/.config/nvim.bak
 
@@ -23,27 +21,6 @@ Install the prerequisites below before proceeding
 
 ### Run nvim
 - nvim
-
-## Prerequisites
-Follow all steps below to get the rerequisites and nvim. Not all distros have been tested so please open an issue if there is an issue with your distro and I will test it. If you have already tested your distro, please feel free to submit a pull request to add your Distro to the list with the proper steps to get it running.
-
-NOTE: SolarVim requires NPM or you will receive errors from Mason.
-
-### Ubuntu
-- sudo apt-get install ninja-build gettext cmake unzip curl
-
-### CentOS/RHEL/Fedora
-- sudo dnf -y install ninja-build cmake gcc make unzip gettext curl gcc-c++
-
-### Arch Linux
-- sudo pacman -S base-devel cmake unzip ninja curl
-
-### Install nvim >= 0.9
-- git clone https://github.com/neovim/neovim.git
-- cd neovim
-- git checkout release-0.9
-- make CMAKE_BUILD_TYPE=Release
-- sudo make install
 
 ## Uninstall SolarVim
 Uninstalling SolarVim will return you to the default neovim configuration.
@@ -56,3 +33,15 @@ Uninstalling SolarVim will return you to the default neovim configuration.
 
 ### Run NeoVim
 - nvim
+
+### TODO
+- DAPInstall.nvim
+- formatter
+- linter
+- nvim-ufo
+- vim-illuminate
+- neotest
+- TreeSJ
+- Add a Winbar
+- Clean plugin init
+- Fix banner in alpha
