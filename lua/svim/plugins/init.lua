@@ -79,10 +79,10 @@ require('lazy').setup({
 
   {
     -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
+    'folke/tokyonight.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      vim.cmd.colorscheme 'tokyonight-storm'
     end,
   },
 
@@ -93,7 +93,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'onedark',
+        theme = 'tokyonight',
         component_separators = '|',
         section_separators = '',
       },
@@ -157,6 +157,7 @@ require('lazy').setup({
   require 'svim.plugins.ui.surround',
   require 'svim.plugins.ui.visual-multi',
   require 'svim.plugins.ui.cmp',
+  require 'svim.plugins.ui.barbecue',
 
   -- UI (remove as you wish)
   require 'svim.plugins.ui.nvim-notify',

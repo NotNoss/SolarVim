@@ -43,3 +43,6 @@ o.iskeyword:append "-"                    -- treats words with `-` as single wor
 o.formatoptions:remove { "c", "r", "o" }  -- This is a sequence of letters which describes how automatic formatting is to be done
 o.linebreak = true
 o.breakindent = true
+o.virtualedit = "all"
+o.wrap = true
+o.relativenumber = true
